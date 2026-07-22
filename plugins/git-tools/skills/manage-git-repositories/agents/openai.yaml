@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Tools"
+  short_description: "安全管理 Git、Gitea 和 GitHub 仓库"
+  default_prompt: "检查当前仓库状态并给出安全的下一步。"

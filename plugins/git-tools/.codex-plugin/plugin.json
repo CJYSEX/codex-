@@ -1,0 +1,38 @@
+{
+  "name": "git-tools",
+  "version": "0.1.0",
+  "description": "面向Codex用户的原创Git、Gitea和GitHub安全管理工具。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://git.cjysa.top/CJYSA"
+  },
+  "homepage": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "repository": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "gitea",
+    "github",
+    "repository",
+    "diagnostics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git Tools",
+    "shortDescription": "安全管理Git、Gitea、GitHub仓库和双远程镜像。",
+    "longDescription": "提供仓库状态诊断、安全提交与推送、Gitea/GitHub双远程同步、SSH和HTTPS故障排查，并默认保护凭据及用户未提交的修改。",
+    "developerName": "CJYSEX",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Diagnostics",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
+    "defaultPrompt": [
+      "检查当前Git仓库状态并给出安全的下一步。",
+      "帮我把这个项目发布到Gitea，并保留现有修改。",
+      "配置Gitea主仓库和GitHub镜像，并安全同步。"
+    ]
+  }
+}
