@@ -1,0 +1,36 @@
+{
+  "name": "cjysa-relay-basic",
+  "version": "0.1.0",
+  "description": "面向 Codex 中转用户的免费连接与兼容性诊断插件。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://github.com/CJYSEX"
+  },
+  "homepage": "https://github.com/CJYSEX/codex-",
+  "repository": "https://github.com/CJYSEX/codex-",
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "relay",
+    "responses-api",
+    "diagnostics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CJYSA 中转基础工具",
+    "shortDescription": "检测 Codex 中转连接、Responses、流式输出和工具能力。",
+    "longDescription": "提供不会泄露密钥的基础诊断流程，帮助用户检查 Codex 中转地址、模型列表、Responses API、SSE 流式输出和工具能力。",
+    "developerName": "CJYSEX",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Diagnostics",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/CJYSEX/codex-",
+    "defaultPrompt": [
+      "帮我检测当前 Codex 中转配置和可用能力。",
+      "检查 Responses API 和 SSE 流式输出是否正常。",
+      "排查 Web Search 或图片生成为什么不可用。"
+    ]
+  }
+}

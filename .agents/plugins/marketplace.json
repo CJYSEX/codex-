@@ -1,0 +1,20 @@
+{
+  "name": "cjysa-free",
+  "interface": {
+    "displayName": "CJYSA 免费插件市场"
+  },
+  "plugins": [
+    {
+      "name": "cjysa-relay-basic",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cjysa-relay-basic"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

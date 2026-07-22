@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 中转诊断"
+  short_description: "检查中转连接、Responses、流式输出和工具能力"
+  default_prompt: "帮我检测当前 Codex 中转配置和可用能力。"
