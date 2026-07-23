@@ -1,0 +1,7 @@
+interface:
+  display_name: "CJYSA PDF"
+  short_description: "读取、生成、合并、拆分并验证 PDF 文件内容"
+  default_prompt: "Use $work-with-pdf to inspect, process, or create a PDF file."
+
+policy:
+  allow_implicit_invocation: true

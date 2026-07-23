@@ -1,0 +1,29 @@
+{
+  "name": "cjysa-presentations",
+  "version": "0.1.0",
+  "description": "面向中文 Codex 用户的原创 PowerPoint 创建、编辑、检查与验证插件。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://git.cjysa.top/CJYSA"
+  },
+  "homepage": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "repository": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "license": "Apache-2.0",
+  "keywords": ["pptx", "powerpoint", "slides", "presentation", "中文"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CJYSA 演示文稿",
+    "shortDescription": "创建、编辑、检查并验证 PowerPoint。",
+    "longDescription": "创建或修改 PPTX 演示文稿，优先保证叙事、可读性和模板一致性，并通过结构检查与逐页预览减少溢出和重叠。",
+    "developerName": "CJYSEX",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
+    "brandColor": "#C43E1C",
+    "defaultPrompt": [
+      "根据这份材料制作一套结构清晰的 PPT。",
+      "保留模板风格并修改这个演示文稿。",
+      "检查这份 PPT 是否存在文字溢出或空白页。"
+    ]
+  }
+}

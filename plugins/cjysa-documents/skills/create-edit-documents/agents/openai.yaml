@@ -1,0 +1,7 @@
+interface:
+  display_name: "CJYSA 文档"
+  short_description: "创建、编辑、审阅并验证专业 Word 文档文件"
+  default_prompt: "Use $create-edit-documents to create or edit a polished DOCX file."
+
+policy:
+  allow_implicit_invocation: true

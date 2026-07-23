@@ -1,0 +1,29 @@
+{
+  "name": "cjysa-spreadsheets",
+  "version": "0.1.0",
+  "description": "面向中文 Codex 用户的原创 Excel 表格创建、编辑、分析与验证插件。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://git.cjysa.top/CJYSA"
+  },
+  "homepage": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "repository": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "license": "Apache-2.0",
+  "keywords": ["xlsx", "excel", "csv", "spreadsheet", "formula", "中文"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CJYSA 表格",
+    "shortDescription": "创建、编辑、分析并验证 Excel 表格。",
+    "longDescription": "处理 XLSX、CSV 和 TSV 文件，保留现有工作簿结构，使用可审计公式，并在交付前检查关键范围、公式错误和视觉布局。",
+    "developerName": "CJYSEX",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
+    "brandColor": "#107C41",
+    "defaultPrompt": [
+      "把这份 CSV 整理成带公式和格式的 Excel。",
+      "分析这个工作簿并解释关键指标。",
+      "修改这个表格，同时保留原有公式和格式。"
+    ]
+  }
+}

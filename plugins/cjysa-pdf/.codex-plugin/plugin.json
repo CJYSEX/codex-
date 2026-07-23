@@ -1,0 +1,29 @@
+{
+  "name": "cjysa-pdf",
+  "version": "0.1.0",
+  "description": "面向中文 Codex 用户的原创 PDF 读取、生成、处理与验证插件。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://git.cjysa.top/CJYSA"
+  },
+  "homepage": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "repository": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "license": "Apache-2.0",
+  "keywords": ["pdf", "extract", "merge", "split", "render", "中文"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CJYSA PDF",
+    "shortDescription": "读取、生成、合并、拆分并验证 PDF。",
+    "longDescription": "支持 PDF 文本提取、页面信息检查、合并、拆分、旋转和基础生成，并要求在可用时渲染页面进行视觉检查。",
+    "developerName": "CJYSEX",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
+    "brandColor": "#DC2626",
+    "defaultPrompt": [
+      "提取并总结这个 PDF 的内容。",
+      "把这些 PDF 合并并检查页面是否正常。",
+      "根据这份内容生成一份排版清晰的 PDF。"
+    ]
+  }
+}

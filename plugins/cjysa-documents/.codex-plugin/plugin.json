@@ -1,0 +1,29 @@
+{
+  "name": "cjysa-documents",
+  "version": "0.1.0",
+  "description": "面向中文 Codex 用户的原创 Word 文档创建、编辑、检查与验证插件。",
+  "author": {
+    "name": "CJYSEX",
+    "url": "https://git.cjysa.top/CJYSA"
+  },
+  "homepage": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "repository": "https://git.cjysa.top/CJYSA/codex-free-market",
+  "license": "Apache-2.0",
+  "keywords": ["docx", "word", "document", "中文", "office"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CJYSA 文档",
+    "shortDescription": "创建、编辑、审阅并验证 Word 文档。",
+    "longDescription": "读取、创建和编辑 DOCX 文档，优先保留原格式，并通过结构检查和可用的渲染工具完成交付前验证。",
+    "developerName": "CJYSEX",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "把这份内容整理成一份专业的 Word 文档。",
+      "在保留格式的前提下修改这个 DOCX。",
+      "检查这份 Word 文档是否存在结构或排版问题。"
+    ]
+  }
+}

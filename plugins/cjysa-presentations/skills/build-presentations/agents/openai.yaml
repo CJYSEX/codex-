@@ -1,0 +1,7 @@
+interface:
+  display_name: "CJYSA 演示文稿"
+  short_description: "创建、编辑、检查并验证专业 PowerPoint 演示文稿"
+  default_prompt: "Use $build-presentations to create or edit a clear PowerPoint deck."
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CJYSA 表格"
+  short_description: "创建、编辑、分析并验证 Excel 工作簿和数据表"
+  default_prompt: "Use $build-spreadsheets to create or edit an auditable XLSX workbook."
+
+policy:
+  allow_implicit_invocation: true
