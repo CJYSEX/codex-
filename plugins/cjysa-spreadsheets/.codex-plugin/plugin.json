@@ -20,6 +20,8 @@
     "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
     "brandColor": "#107C41",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "把这份 CSV 整理成带公式和格式的 Excel。",
       "分析这个工作簿并解释关键指标。",

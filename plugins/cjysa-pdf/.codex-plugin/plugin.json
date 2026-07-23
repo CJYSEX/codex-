@@ -20,6 +20,8 @@
     "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
     "brandColor": "#DC2626",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "提取并总结这个 PDF 的内容。",
       "把这些 PDF 合并并检查页面是否正常。",

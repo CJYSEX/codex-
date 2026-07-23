@@ -20,6 +20,8 @@
     "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
     "brandColor": "#C43E1C",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "根据这份材料制作一套结构清晰的 PPT。",
       "保留模板风格并修改这个演示文稿。",

@@ -20,6 +20,8 @@
     "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://git.cjysa.top/CJYSA/codex-free-market",
     "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "把这份内容整理成一份专业的 Word 文档。",
       "在保留格式的前提下修改这个 DOCX。",
